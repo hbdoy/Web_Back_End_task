@@ -1,0 +1,39 @@
+body {
+    font-family: '微軟正黑體';
+    background: linear-gradient(#F1E6EE, #B4DFF8);
+    min-height: 100vh;
+}
+
+.login {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 18px;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.login input {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.submit {
+    width: 100px;
+    color: white;
+    background: orangered;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    /*width: 105px;*/
+    opacity: 0.7;
+}
